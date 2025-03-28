@@ -10,13 +10,13 @@ if operator == "+":
 elif operator == "-":
     print("The difference is:", num1 - num2)  
 elif operator == "*":
-    print("The multiplication is:", num1 * num2)
+    print("The multiplication result is:", num1 * num2)
 elif operator == "/":
 #cheking to avoid zero division error    
     if num1 == 0 or num2 ==0:
         print("cant divide by zero") 
     else:      
-        print("The division is:", num1 / num2)
+        print("The result after division is:", num1 / num2)
 else:
-    print("Invalid operator")
+    print("Invalid operator please enter a valid operator")
 
